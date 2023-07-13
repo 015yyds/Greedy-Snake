@@ -24,7 +24,7 @@ namespace 贪吃蛇
             }
 
             //左右
-            for (int i = 1; i < 20-2; i += 2)
+            for (int i = 1; i < 20-2; i++)
             {
                 
                 walls[index++] = new Wall(0,i);
